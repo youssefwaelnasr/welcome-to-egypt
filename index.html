@@ -5,13 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3ad7573e76.js" crossorigin="anonymous"></script>
     <title>Welcome To Egypt</title>
 </head>
 
 <body>
     <div id="wrapper">
-        <h1>Egypt, <span id="typed-text"></span></h1>
-        <h2>Welcome to Our Country</h2>
+        <header id="container">
+            <h1>Egypt, <span id="typed-text"></span></h1>
+            <h2>Welcome to Our Country</h2>
+        </header>
+
+        <div id="buttons">
+            <button id="prev" class="slide-btn"><i class="fas fa-arrow-left"></i></button>
+            <button id="next" class="slide-btn"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div id="content">
+            <h2 id="monument">The Great Pyramids</h2>
+            <h4><i class="fas fa-map-marker-alt"></i> <span id="loc">Haram, Giza</span></h4>
+        </div>
     </div>
 
     <script src="js/main.js"></script>

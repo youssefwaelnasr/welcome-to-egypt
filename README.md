@@ -1,1 +1,1 @@
-### Typewriter Effect with plain JS.
+## Demonstration of the Typewriter Effect and Slideshow (WIP) using Vanilla JS.
